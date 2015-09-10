@@ -53,5 +53,5 @@
 	chmod a+x run.sh
 
 	crontab -e
-	* 12 * * * /home/iat/workspace/Study/just_for_mabi/run.sh
+	0 12 * * * /home/iat/workspace/Study/just_for_mabi/run.sh
 	sudo cron restart
